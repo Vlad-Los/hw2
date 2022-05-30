@@ -1,0 +1,5 @@
+/* Основные шрифты */
+:root {
+--main-font : 'Roboto', sans-serif;
+--secondary-font : 'Open Sans', sans-serif;
+}

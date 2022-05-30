@@ -4,45 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Основные шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
-<header>
-    <a href="">WebStudio</a>
-    <nav>
-        <ul>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+<header class="header">
+    <a class="header-link link" href="">WebStudio</a>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-list-item"><a class="nav-link link" href="">Студия</a></li>
+            <li class="nav-list-item"><a class="nav-link link" href="">Портфолио</a></li>
+            <li class="nav-list-item"><a class="nav-link link" href="">Контакты</a></li>
         </ul>
     </nav>
-    <a href="">info@devstudio.com</a>
-    <a href="">+38 096 111 11 11</a>
+    <a class="header-mail" href="">info@devstudio.com</a>
+    <a class="header-phone" href="">+38 096 111 11 11</a>
 </header>
 <main>
     <!-- ================ Hero ========================= -->
-    <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">заказать услугу</button>
+    <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="hero-btn" type="button">заказать услугу</button>
     </section>
     <!-- =================Детали++++++++++++++++++++++++ -->
-    <section>
-        <ul>
-            <li>
-                <h3>Внимание к деталям</h3>
-                <p>Идейные соображения, а также начало повседневной работы 
+    <section class="about-title">
+        <ul class="about-list">
+            <h3 class="about-list-title">Внимание к деталям</h3>
+            <li class="about-list-item">
+                <p class="about-list-subtitle">Идейные соображения, а также начало повседневной работы 
                 по формированию позиции.</p>
             </li>
-            <li>
-                <h3>Пунктуальность</h3>
-                <p>Равным образом консультация с
+            <li class="about-list-item">
+                <h3 class="about-list-title">Пунктуальность</h3>
+                <p class="about-list-subtitle">Равным образом консультация с
                 широким активом в значительной степени обуславливает.</p>
             </li>
-            <li><h3>Планирование</h3>
-                <p>Равным образом консультация с широким активом 
+            <li class="about-list-item"><h3 class="about-list-title" >Планирование </h3>
+                <p class="about-list-subtitle">Равным образом консультация с широким активом 
                     в значительной степени обуславливает.</p></li>
-            <li><h3>Современные технологии</h3>
-                <p>Значимость этих проблем настолько очевидна,
+            <li class="about-list-item"><h3 class="about-list-title">Современные технологии</h3>
+                <p class="about-list-subtitle">Значимость этих проблем настолько очевидна,
                     что реализация плановых заданий.</p></li>
             
         </ul>
@@ -50,25 +57,25 @@
 
     <!-- занимаемся  -->
     <section>
-    <h2>Чем мы занимаемся</h2>
-    <ul>
-        <li><img src="./images/img-min.png" alt="ебать я крутой"></li>
-        <li><img src="./images/box2min.png" alt="у меня айфон"></li>
-        <li><img src="./images/box3min.png" alt="у меня планшет"></li>
+    <h2 class="aboutus-title">Чем мы занимаемся</h2>
+    <ul class="aboutus-list">
+        <li class="aboutus-list-item"><img src="./images/img-min.png" alt="ебать я крутой"></li>
+        <li class="aboutus-list-item"><img src="./images/box2min.png" alt="у меня айфон"></li>
+        <li class="aboutus-list-item"><img src="./images/box3min.png" alt="у меня планшет"></li>
     </ul>
     </section>
     
     <!-- Команда -->
     <section>
-        <h2>Наша Команда</h2>
-        <ul>
-            <li><img src="./images/igor.jpg" alt="фото игоря" width="270" height="260">
+        <h2 class="staff-title">Наша Команда</h2>
+        <ul class="staff-list">
+            <li class="staff-list-item"><img src="./images/igor.jpg" alt="фото игоря" width="270" height="260">
                 <h3>Игорь Демьяненко</h3><p>Product Designer</p></li>
-            <li><img src="./images/olya.jpg" alt="фото оли" width="270" height="260">
+            <li class="staff-list-item"><img src="./images/olya.jpg" alt="фото оли" width="270" height="260">
                 <h3>Ольга Репина</h3><p>Frontend Developer</p></li>
-            <li><img src="./images/kolya.jpg" alt="фото коли" width="270" height="260">
+            <li class="staff-list-item"><img src="./images/kolya.jpg" alt="фото коли" width="270" height="260">
                 <h3>Николай Тарасов</h3><p>Marketing</p></li>
-            <li><img src="./images/misha.jpg" alt="фото" width="270" height="260">
+            <li class="staff-list-item"><img src="./images/misha.jpg" alt="фото" width="270" height="260">
                 <h3>Михаил Ермаков</h3><p>UI Designer</p></li>
         </ul>
     </section>
