@@ -2,4 +2,60 @@
 :root {
 --main-font : 'Roboto', sans-serif;
 --secondary-font : 'Open Sans', sans-serif;
+
+ /* Светлая тема текста */
+
+--accent-txt: #212121;
+--primary-light-txt: #212121;
+--secondary-light-txt: #757575;
+
+/* Темная тема текста*/
+--primary-dark-text: #ffffff;
+--secindary-dark-txt:rgba(255, 255, 255, 0.6);;
+/* Светлая тема фона*/
+--ptymary-light-bg: #ffffff;
+--secondary-light-bg: #F7F7F7;
+
+/* Темная тема фона*/
+--primary-dark-bg:#2F303A;
 }
+
+body{
+font-family: var(--main-font);
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--primary-light-txt)
+
+
+}
+.list{list-style: none ;}
+.link{text-decoration: none;}
+
+.logo {font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #212121; }
+    
+    .logo-accent {color: #2196f3; }
+
+.subtitle {
+    font-family: var(--main-font);
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color:#303030;
+
+
+}
+
+
