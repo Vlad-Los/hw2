@@ -11,7 +11,7 @@
 
 /* Темная тема текста*/
 --primary-dark-text: #ffffff;
---secindary-dark-txt:rgba(255, 255, 255, 0.6);;
+--secondary-dark-txt:rgba(255, 255, 255, 0.6);;
 /* Светлая тема фона*/
 --ptymary-light-bg: #ffffff;
 --secondary-light-bg: #F7F7F7;
@@ -49,9 +49,11 @@ color: var(--primary-light-txt)
     .nav-link:focus 
     .color:var(--accent-txt)
 
-.header{background-color: var(--primary-dark-bg);}
+
     
 /* hero */
+
+.hero {background-color: #212121;}
 
 .hero-title {
     font-family: var(--main-font); 
@@ -166,7 +168,7 @@ color: var(--secondary-light-txt);
         letter-spacing: 0.03em;
         color: #ffffff; }
         
-        .footer-logo-accent {color: #2196f3; }
+.footer-logo-accent {color: #2196f3; }
 .contact-list{
     font-family: 
     var(--main-font);
@@ -177,6 +179,6 @@ line-height: 1.71;
 
 letter-spacing: 0.03em;
 
-color: var(--secondary-light-txt);
+color: var(--secondary-dark-txt);
 }
 
