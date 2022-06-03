@@ -1,47 +1,58 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Основные шрифты -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
-
-    <title>Document</title>
-</head>
-<body>
-<header class="header">
-    <a class="header-link link" href="">WebStudio</a>
-    <nav class="nav">
-        <ul class="nav-list">
-            <li class="nav-list-item"><a class="nav-link link" href="">Студия</a></li>
-            <li class="nav-list-item"><a class="nav-link link" href="">Портфолио</a></li>
-            <li class="nav-list-item"><a class="nav-link link" href="">Контакты</a></li>
-        </ul>
-    </nav>
-    <a class="header-mail" href="">info@devstudio.com</a>
-    <a class="header-phone" href="">+38 096 111 11 11</a>
-</header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Основные шрифты -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <a class="logo link link" href="" lang="en"><span class="logo-accent">Web</span>Studio</a>
+            <nav class="nav">
+                <ul class="nav-list list">
+                    <li class="list-item">
+                        <a class="nav-link link" href="index.html">Студия</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-link link" href="portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-link link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header-mail" href="">info@devstudio.com</a>
+            <a class="header-phone" href="">+38 096 111 11 11</a>
+        </header>
 <main>
     <!-- ================ Hero ========================= -->
-    <section class="hero">
+    <section class="port-hero">
         <h1 class="hero-nav">навигация</h1>
-            <ul class="hero-nav-list">
-                <li class="hero-nav-list-item"><button class="hero-nav-btn" type="button">Веб-сайты</button></li>
-                <li class="hero-nav-list-item"><button class="hero-nav-btn" type="button">Все</button></li>
-                <li class="hero-nav-list-item"><button class="hero-nav-btn" type="button">Приложения</button></li>
-                <li class="hero-nav-list-item"><button class="hero-nav-btn" type="button">Дизайн</button></li>
-                <li class="hero-nav-list-item"><button class="hero-nav-btn" type="button">Маркетинг</button></li>
+            <ul class="hero-nav-list list">
+                <li class="hero-nav-list-item">
+                    <button class="hero-nav-btn" type="button">Веб-сайты</button></li>
+                <li class="hero-nav-list-item">
+                    <button class="hero-nav-btn" type="button">Все</button></li>
+                <li class="hero-nav-list-item">
+                    <button class="hero-nav-btn" type="button">Приложения</button></li>
+                <li class="hero-nav-list-item">
+                    <button class="hero-nav-btn" type="button">Дизайн</button></li>
+                <li class="hero-nav-list-item">
+                    <button class="hero-nav-btn" type="button">Маркетинг</button></li>
             </ul>
     </section>
     <section>
         <h1 class="hero-title">галерея</h1>
-        <ul class="hero-list">
+        <ul class="hero-list list">
             <li class="hero-list-item"><img src="./images/img1.jpg" alt="шефы" width="370" height="294">
                 <h2 class="hero-list-title">Технокряк</h2>
                 <p class="hero-list-description">Веб-сайт</p>
@@ -92,13 +103,33 @@
     
 </main> 
 <footer class="footer">
-    <a class="footer-link" href="">WebStudio</a>
-    <address class="contact">
-        <ul class="contact-list">
-            <li class="contact-item"><a href="">info@devstudio.com</a></li>
-            <li class="contact-item"><a href="">+38 096 111 11 11</a></li>
-        </ul>
-    </address>
-</footer>  
+    <a class="footer-link link" href="" lang="en">
+        <span class="footer-logo-accent">Web</span>Studio
+    </a>
+    <!-- <ul class="contact-list list">
+        <li>
+            <a class="test" href="">info@devstudio.com</a>
+        </li>
+        <li>
+            <a class="test" href="">+38 096 111 11 11</a>
+        </li>
+    </ul> -->
+    
+    <ul class="contact-list list">
+        <li class="contact-item">
+            <a class="contact-link-adress" href="">г. Киев, пр-т Леси Украинки, 26</a>                 
+        </li>
+        <li class="contact-item">
+            <a class="contact-link" href="">info@devstudio.com</a>
+        </li>
+        <li class="contact-item">
+            <a class="contact-link" href="">+38 096 111 11 11</a>
+        </li>
+    </ul>     
+
+    <!-- <address class="contact">
+        
+    </address> -->
+</footer>      
 </body>
 </html>
