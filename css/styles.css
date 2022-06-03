@@ -52,8 +52,7 @@ color: var(--primary-light-txt)
 
     
 /* hero */
-
-.hero {background-color: #212121;}
+.hero {background-color: var(--primary-dark-bg);}
 
 .hero-title {
     font-family: var(--main-font); 
